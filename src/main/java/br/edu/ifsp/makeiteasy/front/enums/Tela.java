@@ -13,6 +13,7 @@ public enum Tela {
     UPDATE_OR_INSERIR_CAMPANHA("/views/UpdateOrInserirCampanha"),
     UPDATE_OR_INSERIR_CLIENTE("/views/UpdateOrInserirClient"),
     REMOVER_CLIENTE("/views/RemoverClient"),
+    REMOVER_CAMPANHA("/views/RemoverCampanha"),
     ;
 
     private final String nomeTela;
