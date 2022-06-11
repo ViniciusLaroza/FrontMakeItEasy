@@ -10,6 +10,9 @@ public enum Tela {
     MENU_RELATORIO_CLIENTE("/views/MenuCliente"),
     MENU_RELATORIO_VENDA("/views/MenuCliente"),
     MENU_RELATORIO_PRODUTO("/views/MenuCliente"),
+    UPDATE_OR_INSERIR_CAMPANHA("/views/UpdateOrInserirCampanha"),
+    UPDATE_OR_INSERIR_CLIENTE("/views/UpdateOrInserirClient"),
+    REMOVER_CLIENTE("/views/RemoverClient"),
     ;
 
     private final String nomeTela;
