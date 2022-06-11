@@ -17,17 +17,14 @@
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
          </columnConstraints>
          <rowConstraints>
-            <RowConstraints maxHeight="78.0" minHeight="0.0" prefHeight="48.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="166.0" minHeight="10.0" prefHeight="36.0" vgrow="SOMETIMES" />
             <RowConstraints maxHeight="203.0" minHeight="0.0" prefHeight="64.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="labelCampanhaId" text="Id" />
-            <Label fx:id="labelCampanhaCodigo" text="CNPJ" GridPane.rowIndex="1" />
-            <Label fx:id="labelCampanhaNome" text="Razão social" GridPane.rowIndex="2" />
-            <TextField fx:id="txtEmpresaCnpj" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <TextField fx:id="txtEmpresaRazaoSocial" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Label fx:id="labelEmpresaId" text="Label" GridPane.columnIndex="1" />
+            <Label fx:id="labelCampanhaCodigo" text="CNPJ" />
+            <Label fx:id="labelCampanhaNome" text="Razão social" GridPane.rowIndex="1" />
+            <TextField fx:id="txtEmpresaCnpj" GridPane.columnIndex="1" />
+            <TextField fx:id="txtEmpresaRazaoSocial" GridPane.columnIndex="1" GridPane.rowIndex="1" />
          </children>
       </GridPane>
       <Label layoutX="57.0" layoutY="32.0" prefHeight="17.0" prefWidth="125.0" />
