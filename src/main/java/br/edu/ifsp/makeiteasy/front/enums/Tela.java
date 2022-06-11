@@ -12,8 +12,10 @@ public enum Tela {
     MENU_RELATORIO_PRODUTO("/views/MenuCliente"),
     UPDATE_OR_INSERIR_CAMPANHA("/views/UpdateOrInserirCampanha"),
     UPDATE_OR_INSERIR_CLIENTE("/views/UpdateOrInserirClient"),
+    UPDATE_OR_INSERIR_EMPRESA("/views/UpdateOrInserirEmpresa"),
     REMOVER_CLIENTE("/views/RemoverClient"),
     REMOVER_CAMPANHA("/views/RemoverCampanha"),
+    REMOVER_EMPRESA("/views/RemoverEmpresa"),
     ;
 
     private final String nomeTela;
