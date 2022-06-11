@@ -26,7 +26,6 @@ public class MenuProdutoController {
         setActionListener(buttonInserir,Tela.UPDATE_OR_INSERIR_PRODUTO);
         setActionListener(buttonAlterar,Tela.UPDATE_OR_INSERIR_PRODUTO);
         setActionListener(buttonVoltar,Tela.INITIAL);
-        //todo criar essa tela
         setActionListener(buttonRemover,Tela.REMOVER_PRODUTO);
     }
     private void setActionListener(Button button, Tela tela){

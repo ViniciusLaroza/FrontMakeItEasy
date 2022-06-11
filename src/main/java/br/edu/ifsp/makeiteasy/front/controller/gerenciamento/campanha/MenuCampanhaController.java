@@ -26,7 +26,6 @@ public class MenuCampanhaController {
         setActionListener(buttonInserir,Tela.UPDATE_OR_INSERIR_CAMPANHA);
         setActionListener(buttonAlterar,Tela.UPDATE_OR_INSERIR_CAMPANHA);
         setActionListener(buttonVoltar,Tela.INITIAL);
-        //todo criar essa tela
         setActionListener(buttonRemover,Tela.REMOVER_CAMPANHA);
     }
     private void setActionListener(Button button, Tela tela){

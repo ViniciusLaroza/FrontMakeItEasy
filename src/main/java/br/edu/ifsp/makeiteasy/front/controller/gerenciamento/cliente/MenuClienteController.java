@@ -26,7 +26,6 @@ public class MenuClienteController {
         setActionListener(buttonInserir,Tela.UPDATE_OR_INSERIR_CLIENTE);
         setActionListener(buttonAlterar,Tela.UPDATE_OR_INSERIR_CLIENTE);
         setActionListener(buttonVoltar,Tela.INITIAL);
-        //todo criar essa tela
         setActionListener(buttonRemover,Tela.REMOVER_CLIENTE);
     }
     private void setActionListener(Button button, Tela tela){
