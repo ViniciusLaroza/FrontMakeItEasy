@@ -6,7 +6,11 @@ public enum Tela {
     MENU_PRODUTO("/views/MenuProduto"),
     MENU_EMPRESA("/views/MenuEmpresa"),
     MENU_CAMPANHA("/views/MenuCampanha"),
-    MENU_REALIZAR_VENDA("/views/RealizarVendaUI");
+    MENU_REALIZAR_VENDA("/views/RealizarVendaUI"),
+    MENU_RELATORIO_CLIENTE("/views/MenuCliente"),
+    MENU_RELATORIO_VENDA("/views/MenuCliente"),
+    MENU_RELATORIO_PRODUTO("/views/MenuCliente"),
+    ;
 
     private final String nomeTela;
 

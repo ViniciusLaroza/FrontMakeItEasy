@@ -52,9 +52,9 @@ public class MenuInicialController {
 
     private void setRelatorioMenuListeners(){
         //todo criar telas
-        setActionListener(menuItemRelatorioVenda,Tela.MENU_CLIENTE);
-        setActionListener(menuItemRelatorioCliente,Tela.MENU_CLIENTE);
-        setActionListener(menuItemRelatorioProduto,Tela.MENU_CLIENTE);
+        setActionListener(menuItemRelatorioVenda,Tela.MENU_RELATORIO_VENDA);
+        setActionListener(menuItemRelatorioCliente,Tela.MENU_RELATORIO_CLIENTE);
+        setActionListener(menuItemRelatorioProduto,Tela.MENU_RELATORIO_PRODUTO);
     }
 
     private void setActionListener(MenuItem menuItem, Tela tela){
