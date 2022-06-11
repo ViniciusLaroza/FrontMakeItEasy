@@ -10,5 +10,6 @@ module br.edu.ifsp.makeiteasy.front {
     opens br.edu.ifsp.makeiteasy.front.controller.gerenciamento.cliente to javafx.fxml, javafx.base;
     opens br.edu.ifsp.makeiteasy.front.controller.gerenciamento.campanha to javafx.fxml, javafx.base;
     opens br.edu.ifsp.makeiteasy.front.controller.gerenciamento.empresa to javafx.fxml, javafx.base;
+    opens br.edu.ifsp.makeiteasy.front.controller.gerenciamento.produto to javafx.fxml, javafx.base;
     exports br.edu.ifsp.makeiteasy.front;
 }

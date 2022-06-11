@@ -2,20 +2,27 @@ package br.edu.ifsp.makeiteasy.front.enums;
 
 public enum Tela {
     INITIAL("/views/MenuInicialAfvUI"),
+
     MENU_CLIENTE("/views/gerenciamento/cliente/MenuCliente"),
-    MENU_PRODUTO("/views/gerenciamento/produto/MenuProduto"),
-    MENU_EMPRESA("/views/gerenciamento/empresa/MenuEmpresa"),
     MENU_CAMPANHA("/views/gerenciamento/campanha/MenuCampanha"),
-    MENU_REALIZAR_VENDA("/views/venda/RealizarVendaUI"),
-    MENU_RELATORIO_CLIENTE("/views/gerenciamento/cliente/MenuCliente"),
-    MENU_RELATORIO_VENDA("/views/gerenciamento/cliente/MenuCliente"),
-    MENU_RELATORIO_PRODUTO("/views/gerenciamento/cliente/MenuCliente"),
-    UPDATE_OR_INSERIR_CAMPANHA("/views/gerenciamento/campanha/UpdateOrInserirCampanha"),
+    MENU_EMPRESA("/views/gerenciamento/empresa/MenuEmpresa"),
+    MENU_PRODUTO("/views/gerenciamento/produto/MenuProduto"),
+
     UPDATE_OR_INSERIR_CLIENTE("/views/gerenciamento/cliente/UpdateOrInserirClient"),
+    UPDATE_OR_INSERIR_CAMPANHA("/views/gerenciamento/campanha/UpdateOrInserirCampanha"),
     UPDATE_OR_INSERIR_EMPRESA("/views/gerenciamento/empresa/UpdateOrInserirEmpresa"),
+    UPDATE_OR_INSERIR_PRODUTO("/views/gerenciamento/produto/UpdateOrInserirProduto"),
+
     REMOVER_CLIENTE("/views/gerenciamento/cliente/RemoverClient"),
     REMOVER_CAMPANHA("/views/gerenciamento/campanha/RemoverCampanha"),
     REMOVER_EMPRESA("/views/gerenciamento/empresa/RemoverEmpresa"),
+    REMOVER_PRODUTO("/views/gerenciamento/produto/RemoverProduto"),
+
+    MENU_REALIZAR_VENDA("/views/venda/RealizarVendaUI"),
+
+    MENU_RELATORIO_CLIENTE("/views/gerenciamento/cliente/MenuCliente"),
+    MENU_RELATORIO_VENDA("/views/gerenciamento/cliente/MenuCliente"),
+    MENU_RELATORIO_PRODUTO("/views/gerenciamento/cliente/MenuCliente"),
     ;
 
     private final String nomeTela;
