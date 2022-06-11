@@ -5,5 +5,6 @@ module br.edu.ifsp.makeiteasy.front {
     opens br.edu.ifsp.makeiteasy.front;
     opens br.edu.ifsp.makeiteasy.front.enums to javafx.fxml;
     opens br.edu.ifsp.makeiteasy.front.utils to javafx.fxml, javafx.base;
+    opens br.edu.ifsp.makeiteasy.front.controller to javafx.fxml, javafx.base;
     exports br.edu.ifsp.makeiteasy.front;
 }

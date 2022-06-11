@@ -20,7 +20,7 @@
                <children>
                   <TableView fx:id="TableViewClientes" layoutY="14.0" prefHeight="398.0" prefWidth="242.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                     <columns>
-                      <TableColumn fx:id="tableColumnClientNome" prefWidth="75.0" text="Id" />
+                      <TableColumn fx:id="tableColumnClientId" prefWidth="75.0" text="Id" />
                       <TableColumn fx:id="tableColumnClientCPF" prefWidth="75.0" text="CPF" />
                         <TableColumn fx:id="tableColumnClientNome" prefWidth="75.0" text="Nome" />
                     </columns>

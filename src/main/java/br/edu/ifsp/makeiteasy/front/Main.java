@@ -12,9 +12,10 @@ public class Main extends Application {
 
         Scene scene = new Scene(UILoader.loadFXML(Tela.INITIAL.getNomeTela()));
         UILoader.setScene(scene);
-        stage.setMaximized(true);
 
-        stage.setMinWidth(350);
+        stage.setResizable(false);
+        stage.setMaxHeight(400);
+        stage.setMaxWidth(600);
         stage.setScene(scene);
         stage.show();
     }
