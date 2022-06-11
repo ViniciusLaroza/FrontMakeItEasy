@@ -14,8 +14,10 @@ public class Main extends Application {
         UILoader.setScene(scene);
 
         stage.setResizable(false);
-        stage.setMaxHeight(400);
-        stage.setMaxWidth(600);
+        stage.setMaxHeight(450);
+        stage.setMaxWidth(650);
+        stage.setMinHeight(400);
+        stage.setMinWidth(600);
         stage.setScene(scene);
         stage.show();
     }
