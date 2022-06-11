@@ -1,4 +1,4 @@
-package br.edu.ifsp.makeiteasy.front.controller;
+package br.edu.ifsp.makeiteasy.front.controller.gerenciamento.cliente;
 
 import br.edu.ifsp.makeiteasy.front.enums.Tela;
 import br.edu.ifsp.makeiteasy.front.utils.UILoader;
