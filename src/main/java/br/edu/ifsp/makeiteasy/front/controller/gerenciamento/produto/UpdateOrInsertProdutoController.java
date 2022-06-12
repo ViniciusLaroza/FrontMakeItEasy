@@ -2,10 +2,12 @@ package br.edu.ifsp.makeiteasy.front.controller.gerenciamento.produto;
 
 import br.edu.ifsp.makeiteasy.front.enums.Tela;
 import br.edu.ifsp.makeiteasy.front.utils.FabricaAlerts;
+import br.edu.ifsp.makeiteasy.front.utils.MascaraUtils;
 import br.edu.ifsp.makeiteasy.front.utils.UILoader;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.TextField;
 
 import java.io.IOException;
 
@@ -14,6 +16,8 @@ public class UpdateOrInsertProdutoController {
     private Button buttonCancelar;
     @FXML
     private Button buttonConfirmar;
+    @FXML
+    private TextField txtCodigo;
 
     @FXML
     void initialize(){
@@ -22,6 +26,7 @@ public class UpdateOrInsertProdutoController {
 
     private void setButtonsClickListener(){
        setActionListener(buttonCancelar);
+       setUpMasks();
         buttonConfirmar.setOnMouseClicked(mouseEvent -> confirm());
     }
 
@@ -44,5 +49,7 @@ public class UpdateOrInsertProdutoController {
             }
         });
     }
-
+    private void setUpMasks(){
+        MascaraUtils.mascaraParaNumeros(txtCodigo);
+    }
 }

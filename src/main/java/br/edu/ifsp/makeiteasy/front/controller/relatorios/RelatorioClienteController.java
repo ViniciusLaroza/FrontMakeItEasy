@@ -1,9 +1,11 @@
 package br.edu.ifsp.makeiteasy.front.controller.relatorios;
 
 import br.edu.ifsp.makeiteasy.front.enums.Tela;
+import br.edu.ifsp.makeiteasy.front.utils.MascaraUtils;
 import br.edu.ifsp.makeiteasy.front.utils.UILoader;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 
 import java.io.IOException;
 
@@ -12,10 +14,13 @@ public class RelatorioClienteController {
 
     @FXML
     private Button buttonVoltar;
+    @FXML
+    private DatePicker dtNascimento;
 
     @FXML
     void initialize() {
         setButtonsClickListener();
+        setUpMasks();
     }
 
     private void setButtonsClickListener() {
@@ -31,5 +36,8 @@ public class RelatorioClienteController {
             }
         });
 
+    }
+    private void setUpMasks() {
+        MascaraUtils.mascaraParaData(dtNascimento);
     }
 }

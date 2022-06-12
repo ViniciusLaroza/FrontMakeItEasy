@@ -2,10 +2,12 @@ package br.edu.ifsp.makeiteasy.front.controller.gerenciamento.campanha;
 
 import br.edu.ifsp.makeiteasy.front.enums.Tela;
 import br.edu.ifsp.makeiteasy.front.utils.FabricaAlerts;
+import br.edu.ifsp.makeiteasy.front.utils.MascaraUtils;
 import br.edu.ifsp.makeiteasy.front.utils.UILoader;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
+import javafx.scene.control.DatePicker;
 
 import java.io.IOException;
 
@@ -14,10 +16,15 @@ public class UpdateOrInsertCampanhaController {
     private Button buttonCancelar;
     @FXML
     private Button buttonConfirmar;
+    @FXML
+    private DatePicker dtLancamento;
+    @FXML
+    private DatePicker dtExpiracao;
 
     @FXML
     void initialize(){
         setButtonsClickListener();
+        setUpMasks();
     }
 
     private void setButtonsClickListener(){
@@ -44,6 +51,11 @@ public class UpdateOrInsertCampanhaController {
                 e.printStackTrace();
             }
         });
+    }
+
+    private void setUpMasks(){
+        MascaraUtils.mascaraParaData(dtLancamento);
+        MascaraUtils.mascaraParaData(dtExpiracao);
     }
 
 }
