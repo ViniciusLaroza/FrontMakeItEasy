@@ -20,9 +20,10 @@ public enum Tela {
 
     MENU_REALIZAR_VENDA("/views/venda/RealizarVendaUI"),
 
-    MENU_RELATORIO_CLIENTE("/views/gerenciamento/cliente/MenuCliente"),
-    MENU_RELATORIO_VENDA("/views/gerenciamento/cliente/MenuCliente"),
-    MENU_RELATORIO_PRODUTO("/views/gerenciamento/cliente/MenuCliente"),
+    MENU_RELATORIO_CLIENTE("/views/relatorios/RelatorioCliente"),
+    MENU_RELATORIO_CAMPANHA("/views/relatorios/RelatorioCampanha"),
+    MENU_RELATORIO_EMPRESA("/views/relatorios/RelatorioEmpresa"),
+    MENU_RELATORIO_PRODUTO("/views/relatorios/RelatorioProduto"),
     ;
 
     private final String nomeTela;

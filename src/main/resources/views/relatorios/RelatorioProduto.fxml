@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.makeiteasy.front.controller.relatorios.RelatorioProdutoController">
    <children>
       <TableView layoutX="177.0" layoutY="30.0" prefHeight="340.0" prefWidth="600.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
         <columns>
@@ -16,32 +16,32 @@
             <TableColumn fx:id="tableColumnCodigo" prefWidth="79.0" text="Codigo" />
         </columns>
       </TableView>
-      <TextField fx:id="txtNome" layoutX="5.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" text="🔎 | Nome">
+      <TextField fx:id="txtNome" layoutX="5.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" promptText="🔎 | Nome">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtCategoria" layoutX="109.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" text="🔎 | Categoria">
+      <TextField fx:id="txtCategoria" layoutX="109.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" promptText="🔎 | Categoria">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtValor" layoutX="212.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" text="🔎 | Valor">
+      <TextField fx:id="txtValor" layoutX="212.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="104.0" promptText="🔎 | Valor">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtDisponibilidade" layoutX="317.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="113.0" text="🔎 | Disponibilidade">
+      <TextField fx:id="txtDisponibilidade" layoutX="317.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="113.0" promptText="🔎 | Disponibilidade">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtCampanha" layoutX="431.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="88.0" text="🔎 | Campanha">
+      <TextField fx:id="txtCampanha" layoutX="431.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="88.0" promptText="🔎 | Campanha">
          <font>
             <Font size="10.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtCodigo" layoutX="519.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="78.0" text="🔎 | Codigo">
+      <TextField fx:id="txtCodigo" layoutX="519.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="78.0" promptText="🔎 | Codigo">
          <font>
             <Font size="10.0" />
          </font>

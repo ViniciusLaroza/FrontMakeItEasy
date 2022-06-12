@@ -26,6 +26,10 @@ public class MenuInicialController {
     private MenuItem menuItemRelatorioCliente;
     @FXML
     private MenuItem menuItemRelatorioProduto;
+    @FXML
+    private MenuItem menuItemRelatorioCampanha;
+    @FXML
+    private MenuItem menuItemRelatorioEmpresa;
 
     @FXML
     void initialize(){
@@ -51,10 +55,10 @@ public class MenuInicialController {
     }
 
     private void setRelatorioMenuListeners(){
-        //todo criar telas
-        setActionListener(menuItemRelatorioVenda,Tela.MENU_RELATORIO_VENDA);
         setActionListener(menuItemRelatorioCliente,Tela.MENU_RELATORIO_CLIENTE);
         setActionListener(menuItemRelatorioProduto,Tela.MENU_RELATORIO_PRODUTO);
+        setActionListener(menuItemRelatorioCampanha,Tela.MENU_RELATORIO_CAMPANHA);
+        setActionListener(menuItemRelatorioEmpresa,Tela.MENU_RELATORIO_EMPRESA);
     }
 
     private void setActionListener(MenuItem menuItem, Tela tela){

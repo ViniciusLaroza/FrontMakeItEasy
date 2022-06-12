@@ -29,9 +29,10 @@
           </Menu>
           <Menu mnemonicParsing="false" text="Relatorio">
             <items>
-              <MenuItem fx:id="menuItemRelatorioVenda" mnemonicParsing="false" text="Venda" />
                   <MenuItem fx:id="menuItemRelatorioCliente" mnemonicParsing="false" text="Cliente" />
                   <MenuItem fx:id="menuItemRelatorioProduto" mnemonicParsing="false" text="Produto" />
+                <MenuItem fx:id="menuItemRelatorioCampanha" mnemonicParsing="false" text="Campanha" />
+                <MenuItem fx:id="menuItemRelatorioEmpresa" mnemonicParsing="false" text="Empresa" />
             </items>
           </Menu>
         </menus>

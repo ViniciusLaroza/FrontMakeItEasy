@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifsp.makeiteasy.front.controller.relatorios.RelatorioEmpresaController">
    <children>
       <TableView layoutX="177.0" layoutY="30.0" prefHeight="340.0" prefWidth="600.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="30.0">
         <columns>
@@ -15,12 +15,12 @@
           <TableColumn fx:id="tableColumnRazaoSocial" prefWidth="328.0" text="Razão Social" />
         </columns>
       </TableView>
-      <TextField fx:id="txtCNPJ" layoutX="5.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="265.0" text="🔎 | CNPJ">
+      <TextField fx:id="txtCNPJ" layoutX="5.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="265.0" promptText="🔎 | CNPJ">
          <font>
             <Font size="11.0" />
          </font>
       </TextField>
-      <TextField fx:id="txtRazaoSocial" layoutX="272.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="325.0" text="🔎 | Razão Social">
+      <TextField fx:id="txtRazaoSocial" layoutX="272.0" layoutY="2.0" opacity="0.4" prefHeight="25.0" prefWidth="325.0" promptText="🔎 | Razão Social">
          <font>
             <Font size="11.0" />
          </font>
